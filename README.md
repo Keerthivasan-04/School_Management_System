@@ -1,50 +1,58 @@
-**📘 School Management System**
+# 📘 School Management System 
 
-**📌 Overview**
+## 📌 Description
+A lightweight, organized, and extensible Java-based School Management System built using clean architectural practices.  
+It demonstrates real-world Object-Oriented Programming (OOP) with plain Java — no frameworks, no databases, and no unnecessary complexity.  
+The project is structured for clarity, scalability, and long-term maintainability.
 
-This project is a lightweight, clean, and extensible Java-based School Management System designed for learners and developers who want to understand how to structure a scalable application without frameworks, databases, or cluttered console menus.
-It emphasizes clarity, reusability, maintainability and demonstrates core Java + OOP principles in a real-world scenario.
+---
 
-**📂 Project Structure**
+## 🚀 Features
+- Add and manage teacher records  
+- Add and manage student records  
+- Track earnings from student fees  
+- Track expenses for teacher salaries  
+- Centralized operations through `SchoolManagement`  
+- Encapsulated data with getters and setters  
+- Exception handling for unsafe operations  
+- Clean code following OOP principles  
+- Easy to extend for future modules (attendance, exams, subjects, etc.)
 
+---
+
+## 📂 Folder Structure
+```
 src/
- ├── Main.java
- ├── models/
- │     ├── Teacher.java
- │     └── Student.java
- └── management/
-       └── SchoolManagement.java
-
-**models/**
-
-Contains the core data entities:
-
-_Teacher_
-
-_Student_
-
-Each class follows proper encapsulation using private fields, getters/setters, and clean method design.
-
-**management/**
-
-Contains:
-
-School — the class responsible for managing students and teachers, updating salary/fee flows, and organizing the school’s operations.
+├── Main.java
+├── models/
+│ ├── Teacher.java
+│ └── Student.java
+└── management/
+  └── SchoolManagement.java
+```
 
 
-**Main.java**
+- **models/** → Holds core entities (Teacher, Student)  
+- **management/** → Handles system logic and school operations  
+- **Main.java** → Entry point of the application  
 
-The entry point of the project, showing how the system works during runtime.
+---
 
+## ⭐ Unique Points
 
+- Clean layered architecture with strict separation of responsibilities  
+- Highly extensible and reusable class design  
+- Real-world scalability without any framework dependency  
 
-**⭐ What Makes This Version Unique**
+---
 
--> Clean layered architecture with strict separation of responsibilities
+## 🛠 Installation
 
--> Highly extensible and reusable class design
+1. Install **Java 8 or above**.  
+2. Clone the repository: ```git clone https://github.com/Keerthivasan-04/School_Management_System ```
+3. Open the project in your preferred IDE (IntelliJ, VS Code, Eclipse).  
+4. Navigate to: ``` src/Main.java ```
+5. Run the file to execute the project.
 
--> Real-world scalability without any framework dependency
-
--> Exception handling included across operations
+---
 
